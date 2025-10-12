@@ -7,6 +7,6 @@ const certDataSchema = new Schema({
   issueDate: String,
 });
 
-const CertData = models.CertData || model("CertData", certDataSchema);
+const CertData = models.CertDatas || model("CertDatas", certDataSchema);
 
 export default CertData;

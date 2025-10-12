@@ -2,9 +2,9 @@ export default async function getSingleSubject(id: any) {
   try {
     console.log(id);
     const res = await fetch(
-      `https://alevel-testing.netlify.app/api/certificates/${id}`,
+      // `https://alevel-testing.netlify.app/api/certificates/${id}`,
       // `https://alevel.netlify.app/certificates/${id}`,
-      // `http://localhost:3000/api/certificates/${id}`,
+      `http://localhost:3000/api/certificates/${id}`,
       {
         cache: "no-store",
       }
