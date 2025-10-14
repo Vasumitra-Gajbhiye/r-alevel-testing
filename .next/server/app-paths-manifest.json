@@ -1,6 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/certificates/[id]/route": "app/api/certificates/[id]/route.js",
-  "/(others)/certificates/page": "app/(others)/certificates/page.js",
-  "/(others)/certificates/[id]/page": "app/(others)/certificates/[id]/page.js"
-}
